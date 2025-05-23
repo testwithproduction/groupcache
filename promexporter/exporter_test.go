@@ -299,7 +299,7 @@ func startMetricsServer(ctx context.Context, t *testing.T, registry *prometheus.
 		_ = httpSrv.Serve(listener)
 		wg.Done()
 	}()
-	err = waitForReady(ctx, httpSrv)
+	waitForReady(ctx, httpSrv)
 	t.Logf("HTTP server ready at %s", httpSrv.Addr)
 	return httpSrv, nil
 }
