@@ -1,4 +1,4 @@
-.PHONY: all build test lint clean tidy run help
+.PHONY: all build test lint clean tidy run help 
 
 # Default target
 all: help
@@ -18,6 +18,7 @@ help:
 # Build the main server binary
 build:
 	go build -o bin/groupcache-server ./cmd/server
+	go build -o bin/groupcache-benchmark ./cmd/benchmark
 
 # Run all tests
 test:
