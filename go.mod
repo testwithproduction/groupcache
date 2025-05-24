@@ -1,4 +1,4 @@
-module github.com/mailgun/groupcache/v2
+module github.com/testwithproduction/groupcache/v2
 
 go 1.22
 

@@ -6,8 +6,8 @@ This exporter extracts statistics from group instances and exports as Prometheus
 
 ```go
 import (
-	"github.com/mailgun/groupcache/v2"
-	"github.com/mailgun/groupcache/v2/promexporter"
+	"github.com/testwithproduction/groupcache/v2"
+	"github.com/testwithproduction/groupcache/v2/promexporter"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

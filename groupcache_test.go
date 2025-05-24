@@ -30,9 +30,9 @@ import (
 	"unsafe"
 
 	"github.com/golang/protobuf/proto"
-	pb "github.com/mailgun/groupcache/v2/groupcachepb"
-	"github.com/mailgun/groupcache/v2/testpb"
 	"github.com/stretchr/testify/assert"
+	pb "github.com/testwithproduction/groupcache/v2/groupcachepb"
+	"github.com/testwithproduction/groupcache/v2/testpb"
 )
 
 var (

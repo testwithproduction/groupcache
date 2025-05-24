@@ -8,8 +8,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/mailgun/groupcache/v2"
 	"github.com/sirupsen/logrus"
+	"github.com/testwithproduction/groupcache/v2"
 )
 
 type contextKey string

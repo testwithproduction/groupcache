@@ -32,10 +32,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	pb "github.com/mailgun/groupcache/v2/groupcachepb"
-	"github.com/mailgun/groupcache/v2/lru"
-	"github.com/mailgun/groupcache/v2/singleflight"
 	"github.com/sirupsen/logrus"
+	pb "github.com/testwithproduction/groupcache/v2/groupcachepb"
+	"github.com/testwithproduction/groupcache/v2/lru"
+	"github.com/testwithproduction/groupcache/v2/singleflight"
 )
 
 var logger Logger

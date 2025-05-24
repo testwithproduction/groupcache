@@ -12,8 +12,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mailgun/groupcache/v2"
-	"github.com/mailgun/groupcache/v2/promexporter"
 	"github.com/mailgun/holster/v4/retry"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
@@ -22,6 +20,8 @@ import (
 	"github.com/prometheus/common/expfmt"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/testwithproduction/groupcache/v2"
+	"github.com/testwithproduction/groupcache/v2/promexporter"
 )
 
 type MetricInfo struct {

@@ -2,8 +2,8 @@
 package promexporter
 
 import (
-	"github.com/mailgun/groupcache/v2"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/testwithproduction/groupcache/v2"
 )
 
 // Exporter implements interface prometheus.Collector to extract metrics from groupcache.
